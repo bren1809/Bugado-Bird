@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bugado Bird</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <div id="game-container">
+
+      <div id="start-screen">
+        <img id="logo" src="./assets/images/logo.jpeg" alt="Logo Bugado Bird" />
+        <h1>Bugado Bird</h1>
+        <button id="start-button">Iniciar Jogo</button>
+      </div>
+
+      <div id="hud" style="display: none;">
+        <div id="score-display">Pontuação: 0</div>
+        <div id="high-score-display">Recorde: 0</div>
+      </div>
+      
+      <canvas id="game-canvas" width="400" height="600"></canvas>
+
+      <div id="game-over-screen" style="display: none;">
+        <h1>Gamer Over</h1>
+        <button id="start-button">Reiniciar</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+    
+  </body>
+</html>
+
